@@ -38,6 +38,11 @@
     ],
     "grammars": [
       {
+        "language": "ocaml_menhir",
+        "scopeName": "source.ocaml_menhir",
+        "path": "./syntaxes/OCaml.tmLanguage"
+      },
+      {
         "language": "ocamllex",
         "scopeName": "source.ocamllex",
         "path": "./syntaxes/OCamllex.tmLanguage"
@@ -49,7 +54,7 @@
       }
     ],
     "configurationDefaults": {
-      "[ocaml]": {
+      "[ocaml_menhir]": {
         "editor.tabSize": 2,
         "editor.insertSpaces": true
       },
