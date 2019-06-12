@@ -2,7 +2,7 @@
   "name": "ocaml-mll-mly",
   "displayName": "OCaml mll and mly",
   "description": "OCaml .mll and .mly highlighting",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "publisher": "mnxn",
   "icon": "images/colour-icon.png",
   "engines": {
@@ -13,24 +13,31 @@
     "url": "https://github.com/mnxn/vscode-ocaml-mll-mly"
   },
   "contributes": {
-    "languages": [{
+    "languages": [
+      {
         "id": "ocamllex",
-        "aliases": ["OCamllex"],
-        "extensions": [".mll"],
+        "aliases": [
+          "OCamllex"
+        ],
+        "extensions": [
+          ".mll"
+        ],
         "configuration": "./ocamllex.configuration.json"
       },
       {
         "id": "menhir",
-        "aliases": ["Menhir", "OCamlyacc"],
-        "extensions": [".mly"],
+        "aliases": [
+          "Menhir",
+          "OCamlyacc"
+        ],
+        "extensions": [
+          ".mly"
+        ],
         "configuration": "./menhir.configuration.json"
       }
     ],
-    "grammars": [{
-        "language": "ocaml",
-        "scopeName": "source.ocaml",
-        "path": "./syntaxes/OCaml.tmLanguage"
-      }, {
+    "grammars": [
+      {
         "language": "ocamllex",
         "scopeName": "source.ocamllex",
         "path": "./syntaxes/OCamllex.tmLanguage"
