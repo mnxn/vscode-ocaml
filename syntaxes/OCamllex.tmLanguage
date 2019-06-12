@@ -43,7 +43,7 @@
 			<array>
 				<dict>
 					<key>include</key>
-					<string>source.ocaml</string>
+					<string>source.ocaml_menhir</string>
 				</dict>
 			</array>
 		</dict>
@@ -211,7 +211,7 @@
 					<array>
 						<dict>
 							<key>include</key>
-							<string>source.ocaml</string>
+							<string>source.ocaml_menhir</string>
 						</dict>
 					</array>
 				</dict>
@@ -478,7 +478,7 @@
 		</dict>
 	</dict>
 	<key>scopeName</key>
-	<string>source.ocamllex</string>
+	<string>source.ocaml_menhirlex</string>
 	<key>uuid</key>
 	<string>007E5263-8E0D-4BEF-B0E1-F01AE32590E8</string>
 </dict>
