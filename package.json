@@ -2,7 +2,7 @@
   "name": "ocaml-mll-mly",
   "displayName": "OCaml mll and mly",
   "description": "OCaml .mll and .mly highlighting",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "publisher": "mnxn",
   "icon": "images/colour-icon.png",
   "engines": {
