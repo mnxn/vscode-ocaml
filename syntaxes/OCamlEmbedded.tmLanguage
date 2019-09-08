@@ -14,7 +14,7 @@
 	<key>keyEquivalent</key>
 	<string>^~O</string>
 	<key>name</key>
-	<string>OCaml</string>
+	<string>OCamlEmbedded</string>
 	<key>patterns</key>
 	<array>
 		<dict>
@@ -31,22 +31,22 @@
 				<key>1</key>
 				<dict>
 					<key>name</key>
-					<string>keyword.other.module-binding.ocaml</string>
+					<string>keyword.other.module-binding.ocamlembedded</string>
 				</dict>
 				<key>2</key>
 				<dict>
 					<key>name</key>
-					<string>keyword.other.module-definition.ocaml</string>
+					<string>keyword.other.module-definition.ocamlembedded</string>
 				</dict>
 				<key>3</key>
 				<dict>
 					<key>name</key>
-					<string>support.other.module.ocaml</string>
+					<string>support.other.module.ocamlembedded</string>
 				</dict>
 				<key>4</key>
 				<dict>
 					<key>name</key>
-					<string>punctuation.separator.module-binding.ocmal</string>
+					<string>punctuation.separator.module-binding.ocamlembedded</string>
 				</dict>
 			</dict>
 			<key>match</key>
@@ -62,17 +62,17 @@
 				<key>1</key>
 				<dict>
 					<key>name</key>
-					<string>keyword.other.module-binding.ocaml</string>
+					<string>keyword.other.module-binding.ocamlembedded</string>
 				</dict>
 				<key>2</key>
 				<dict>
 					<key>name</key>
-					<string>keyword.other.ocaml</string>
+					<string>keyword.other.ocamlembedded</string>
 				</dict>
 				<key>3</key>
 				<dict>
 					<key>name</key>
-					<string>support.other.module.ocaml</string>
+					<string>support.other.module.ocamlembedded</string>
 				</dict>
 			</dict>
 			<key>end</key>
@@ -87,13 +87,13 @@
 						<key>1</key>
 						<dict>
 							<key>name</key>
-							<string>punctuation.separator.module-reference.ocaml</string>
+							<string>punctuation.separator.module-reference.ocamlembedded</string>
 						</dict>
 					</dict>
 					<key>match</key>
 					<string>(\.)([A-Z][a-zA-Z0-9'_]*)</string>
 					<key>name</key>
-					<string>support.other.module.ocaml</string>
+					<string>support.other.module.ocamlembedded</string>
 				</dict>
 			</array>
 		</dict>
@@ -105,22 +105,22 @@
 				<key>1</key>
 				<dict>
 					<key>name</key>
-					<string>keyword.other.function-definition.ocaml</string>
+					<string>keyword.other.function-definition.ocamlembedded</string>
 				</dict>
 				<key>3</key>
 				<dict>
 					<key>name</key>
-					<string>keyword.other.funtion-definition.ocaml</string>
+					<string>keyword.other.funtion-definition.ocamlembedded</string>
 				</dict>
 				<key>4</key>
 				<dict>
 					<key>name</key>
-					<string>entity.name.function.ocaml</string>
+					<string>entity.name.function.ocamlembedded</string>
 				</dict>
 				<key>5</key>
 				<dict>
 					<key>name</key>
-					<string>entity.name.function.ocaml</string>
+					<string>entity.name.function.ocamlembedded</string>
 				</dict>
 			</dict>
 			<key>end</key>
@@ -130,26 +130,26 @@
 				<key>1</key>
 				<dict>
 					<key>name</key>
-					<string>punctuation.separator.function.type-constraint.ocaml</string>
+					<string>punctuation.separator.function.type-constraint.ocamlembedded</string>
 				</dict>
 				<key>2</key>
 				<dict>
 					<key>name</key>
-					<string>storage.type.ocaml</string>
+					<string>storage.type.ocamlembedded</string>
 				</dict>
 				<key>3</key>
 				<dict>
 					<key>name</key>
-					<string>keyword.operator.ocaml</string>
+					<string>keyword.operator.ocamlembedded</string>
 				</dict>
 				<key>4</key>
 				<dict>
 					<key>name</key>
-					<string>keyword.operator.ocaml</string>
+					<string>keyword.operator.ocamlembedded</string>
 				</dict>
 			</dict>
 			<key>name</key>
-			<string>meta.let-function.ocaml</string>
+			<string>meta.let-function.ocamlembedded</string>
 			<key>patterns</key>
 			<array>
 				<dict>
@@ -166,7 +166,7 @@
 				<key>2</key>
 				<dict>
 					<key>name</key>
-					<string>keyword.other.function-definition.ocaml</string>
+					<string>keyword.other.function-definition.ocamlembedded</string>
 				</dict>
 			</dict>
 			<key>end</key>
@@ -176,11 +176,11 @@
 				<key>1</key>
 				<dict>
 					<key>name</key>
-					<string>punctuation.separator.function-definition.ocaml</string>
+					<string>punctuation.separator.function-definition.ocamlembedded</string>
 				</dict>
 			</dict>
 			<key>name</key>
-			<string>meta.anonymous-function.definition.ocaml</string>
+			<string>meta.anonymous-function.definition.ocamlembedded</string>
 			<key>patterns</key>
 			<array>
 				<dict>
@@ -195,7 +195,7 @@
 			<key>end</key>
 			<string>(?=;;|\[%|\[@@|\b(let|end|val|module|include|open|exception|class|external)\b)</string>
 			<key>name</key>
-			<string>meta.type-definition-group.ocaml</string>
+			<string>meta.type-definition-group.ocamlembedded</string>
 			<key>patterns</key>
 			<array>
 				<dict>
@@ -206,23 +206,23 @@
 						<key>1</key>
 						<dict>
 							<key>name</key>
-							<string>keyword.other.type-definition.ocaml</string>
+							<string>keyword.other.type-definition.ocamlembedded</string>
 						</dict>
 						<key>2</key>
 						<dict>
 							<key>name</key>
-							<string>storage.type.ocaml</string>
+							<string>storage.type.ocamlembedded</string>
 						</dict>
 						<key>3</key>
 						<dict>
 							<key>name</key>
-							<string>punctuation.separator.type-definition.ocaml</string>
+							<string>punctuation.separator.type-definition.ocamlembedded</string>
 						</dict>
 					</dict>
 					<key>end</key>
 					<string>(?=;;|\[%|\[@@|\b(type|and|let|end|val|module|include|open|exception|class|external)\b)</string>
 					<key>name</key>
-					<string>meta.type-definition.ocaml</string>
+					<string>meta.type-definition.ocamlembedded</string>
 					<key>patterns</key>
 					<array>
 						<dict>
@@ -239,23 +239,23 @@
 						<key>1</key>
 						<dict>
 							<key>name</key>
-							<string>keyword.other.type-definition.ocaml</string>
+							<string>keyword.other.type-definition.ocamlembedded</string>
 						</dict>
 						<key>2</key>
 						<dict>
 							<key>name</key>
-							<string>storage.type.ocaml</string>
+							<string>storage.type.ocamlembedded</string>
 						</dict>
 						<key>3</key>
 						<dict>
 							<key>name</key>
-							<string>punctuation.separator.type-definition.ocaml</string>
+							<string>punctuation.separator.type-definition.ocamlembedded</string>
 						</dict>
 					</dict>
 					<key>end</key>
 					<string>(?=;;|\[%|\[@@|\b(type|and|let|end|val|module|exception|class|external)\b)</string>
 					<key>name</key>
-					<string>meta.type-definition.ocaml</string>
+					<string>meta.type-definition.ocamlembedded</string>
 				</dict>
 				<dict>
 					<key>include</key>
@@ -271,17 +271,17 @@
 				<key>1</key>
 				<dict>
 					<key>name</key>
-					<string>keyword.control.match-definition.ocaml</string>
+					<string>keyword.control.match-definition.ocamlembedded</string>
 				</dict>
 				<key>2</key>
 				<dict>
 					<key>name</key>
-					<string>keyword.other.function-definition.ocaml</string>
+					<string>keyword.other.function-definition.ocamlembedded</string>
 				</dict>
 				<key>3</key>
 				<dict>
 					<key>name</key>
-					<string>keyword.control.match-definition.ocaml</string>
+					<string>keyword.control.match-definition.ocamlembedded</string>
 				</dict>
 			</dict>
 			<key>end</key>
@@ -291,16 +291,16 @@
 				<key>1</key>
 				<dict>
 					<key>name</key>
-					<string>punctuation.separator.match-definition.ocaml</string>
+					<string>punctuation.separator.match-definition.ocamlembedded</string>
 				</dict>
 				<key>2</key>
 				<dict>
 					<key>name</key>
-					<string>keyword.control.match-condition.ocaml</string>
+					<string>keyword.control.match-condition.ocamlembedded</string>
 				</dict>
 			</dict>
 			<key>name</key>
-			<string>meta.pattern-match.ocaml</string>
+			<string>meta.pattern-match.ocamlembedded</string>
 			<key>patterns</key>
 			<array>
 				<dict>
@@ -319,23 +319,23 @@
 				<key>1</key>
 				<dict>
 					<key>name</key>
-					<string>keyword.other.class-type-definition.ocaml</string>
+					<string>keyword.other.class-type-definition.ocamlembedded</string>
 				</dict>
 				<key>2</key>
 				<dict>
 					<key>name</key>
-					<string>entity.name.type.class-type.ocaml</string>
+					<string>entity.name.type.class-type.ocamlembedded</string>
 				</dict>
 				<key>4</key>
 				<dict>
 					<key>name</key>
-					<string>storage.type.ocaml</string>
+					<string>storage.type.ocamlembedded</string>
 				</dict>
 			</dict>
 			<key>match</key>
 			<string>^[ \t]*(class\s+type\s+)((\[\s*('[A-Za-z][a-zA-Z0-9_']*(?:\s*,\s*'[A-Za-z][a-zA-Z0-9_']*)*)\s*\]\s+)?[a-z_][a-zA-Z0-9'_]*)</string>
 			<key>name</key>
-			<string>meta.class.type-definition.ocaml</string>
+			<string>meta.class.type-definition.ocamlembedded</string>
 		</dict>
 		<dict>
 			<key>begin</key>
@@ -345,17 +345,17 @@
 				<key>1</key>
 				<dict>
 					<key>name</key>
-					<string>keyword.other.class-definition.ocaml</string>
+					<string>keyword.other.class-definition.ocamlembedded</string>
 				</dict>
 				<key>2</key>
 				<dict>
 					<key>name</key>
-					<string>entity.name.type.class.ocaml</string>
+					<string>entity.name.type.class.ocamlembedded</string>
 				</dict>
 				<key>4</key>
 				<dict>
 					<key>name</key>
-					<string>storage.type.ocaml</string>
+					<string>storage.type.ocamlembedded</string>
 				</dict>
 			</dict>
 			<key>end</key>
@@ -365,11 +365,11 @@
 				<key>1</key>
 				<dict>
 					<key>name</key>
-					<string>keyword.operator.ocaml</string>
+					<string>keyword.operator.ocamlembedded</string>
 				</dict>
 			</dict>
 			<key>name</key>
-			<string>meta.class.ocaml</string>
+			<string>meta.class.ocamlembedded</string>
 			<key>patterns</key>
 			<array>
 				<dict>
@@ -386,17 +386,17 @@
 				<key>1</key>
 				<dict>
 					<key>name</key>
-					<string>keyword.other.class-definition.ocaml</string>
+					<string>keyword.other.class-definition.ocamlembedded</string>
 				</dict>
 				<key>2</key>
 				<dict>
 					<key>name</key>
-					<string>entity.name.type.class.ocaml</string>
+					<string>entity.name.type.class.ocamlembedded</string>
 				</dict>
 				<key>4</key>
 				<dict>
 					<key>name</key>
-					<string>storage.type.ocaml</string>
+					<string>storage.type.ocamlembedded</string>
 				</dict>
 			</dict>
 			<key>end</key>
@@ -406,11 +406,11 @@
 				<key>1</key>
 				<dict>
 					<key>name</key>
-					<string>keyword.operator.ocaml</string>
+					<string>keyword.operator.ocamlembedded</string>
 				</dict>
 			</dict>
 			<key>name</key>
-			<string>meta.class.virtual.ocaml</string>
+			<string>meta.class.virtual.ocamlembedded</string>
 			<key>patterns</key>
 			<array>
 				<dict>
@@ -425,23 +425,23 @@
 				<key>1</key>
 				<dict>
 					<key>name</key>
-					<string>keyword.other.class-type-definition.ocaml</string>
+					<string>keyword.other.class-type-definition.ocamlembedded</string>
 				</dict>
 				<key>2</key>
 				<dict>
 					<key>name</key>
-					<string>entity.name.type.class-type.ocaml</string>
+					<string>entity.name.type.class-type.ocamlembedded</string>
 				</dict>
 				<key>4</key>
 				<dict>
 					<key>name</key>
-					<string>storage.type.ocaml</string>
+					<string>storage.type.ocamlembedded</string>
 				</dict>
 			</dict>
 			<key>match</key>
 			<string>^[ \t]*(class\s+type\s+virtual)((\[\s*('[A-Za-z][a-zA-Z0-9_']*(?:\s*,\s*'[A-Za-z][a-zA-Z0-9_']*)*)\s*\]\s+)?[a-z_][a-zA-Z0-9'_]*)</string>
 			<key>name</key>
-			<string>meta.class.virtual.type-definition.ocaml</string>
+			<string>meta.class.virtual.type-definition.ocamlembedded</string>
 		</dict>
 		<dict>
 			<key>begin</key>
@@ -451,7 +451,7 @@
 				<key>1</key>
 				<dict>
 					<key>name</key>
-					<string>punctuation.definition.record.ocaml</string>
+					<string>punctuation.definition.record.ocamlembedded</string>
 				</dict>
 			</dict>
 			<key>end</key>
@@ -461,18 +461,18 @@
 				<key>1</key>
 				<dict>
 					<key>name</key>
-					<string>punctuation.definition.record.ocaml</string>
+					<string>punctuation.definition.record.ocamlembedded</string>
 				</dict>
 			</dict>
 			<key>name</key>
-			<string>meta.record.ocaml</string>
+			<string>meta.record.ocamlembedded</string>
 			<key>patterns</key>
 			<array>
 				<dict>
 					<key>match</key>
 					<string>\bwith\b</string>
 					<key>name</key>
-					<string>keyword.other.language.ocaml</string>
+					<string>keyword.other.language.ocamlembedded</string>
 				</dict>
 				<dict>
 					<key>begin</key>
@@ -482,17 +482,17 @@
 						<key>1</key>
 						<dict>
 							<key>name</key>
-							<string>keyword.other.storage.modifier.ocaml</string>
+							<string>keyword.other.storage.modifier.ocamlembedded</string>
 						</dict>
 						<key>2</key>
 						<dict>
 							<key>name</key>
-							<string>source.ocaml</string>
+							<string>source.ocamlembedded</string>
 						</dict>
 						<key>3</key>
 						<dict>
 							<key>name</key>
-							<string>punctuation.definition.record.ocaml</string>
+							<string>punctuation.definition.record.ocamlembedded</string>
 						</dict>
 					</dict>
 					<key>end</key>
@@ -502,11 +502,11 @@
 						<key>1</key>
 						<dict>
 							<key>name</key>
-							<string>keyword.operator.ocaml</string>
+							<string>keyword.operator.ocamlembedded</string>
 						</dict>
 					</dict>
 					<key>name</key>
-					<string>meta.record.definition.ocaml</string>
+					<string>meta.record.definition.ocamlembedded</string>
 					<key>patterns</key>
 					<array>
 						<dict>
@@ -529,22 +529,22 @@
 				<key>1</key>
 				<dict>
 					<key>name</key>
-					<string>keyword.other.object-definition.ocaml</string>
+					<string>keyword.other.object-definition.ocamlembedded</string>
 				</dict>
 				<key>2</key>
 				<dict>
 					<key>name</key>
-					<string>punctuation.definition.self-binding.ocaml</string>
+					<string>punctuation.definition.self-binding.ocamlembedded</string>
 				</dict>
 				<key>3</key>
 				<dict>
 					<key>name</key>
-					<string>entity.name.type.self-binding.ocaml</string>
+					<string>entity.name.type.self-binding.ocamlembedded</string>
 				</dict>
 				<key>4</key>
 				<dict>
 					<key>name</key>
-					<string>punctuation.definition.self-binding.ocaml</string>
+					<string>punctuation.definition.self-binding.ocamlembedded</string>
 				</dict>
 			</dict>
 			<key>end</key>
@@ -554,16 +554,16 @@
 				<key>1</key>
 				<dict>
 					<key>name</key>
-					<string>keyword.control.object.ocaml</string>
+					<string>keyword.control.object.ocamlembedded</string>
 				</dict>
 				<key>2</key>
 				<dict>
 					<key>name</key>
-					<string>punctuation.terminator.expression.ocaml</string>
+					<string>punctuation.terminator.expression.ocamlembedded</string>
 				</dict>
 			</dict>
 			<key>name</key>
-			<string>meta.object.ocaml</string>
+			<string>meta.object.ocamlembedded</string>
 			<key>patterns</key>
 			<array>
 				<dict>
@@ -574,22 +574,22 @@
 						<key>1</key>
 						<dict>
 							<key>name</key>
-							<string>keyword.other.method-definition.ocaml</string>
+							<string>keyword.other.method-definition.ocamlembedded</string>
 						</dict>
 						<key>2</key>
 						<dict>
 							<key>name</key>
-							<string>keyword.other.method-definition.ocaml</string>
+							<string>keyword.other.method-definition.ocamlembedded</string>
 						</dict>
 						<key>3</key>
 						<dict>
 							<key>name</key>
-							<string>keyword.other.method-restriction.ocaml</string>
+							<string>keyword.other.method-restriction.ocamlembedded</string>
 						</dict>
 						<key>4</key>
 						<dict>
 							<key>name</key>
-							<string>entity.name.function.method.ocaml</string>
+							<string>entity.name.function.method.ocamlembedded</string>
 						</dict>
 					</dict>
 					<key>end</key>
@@ -599,11 +599,11 @@
 						<key>1</key>
 						<dict>
 							<key>name</key>
-							<string>keyword.operator.ocaml</string>
+							<string>keyword.operator.ocamlembedded</string>
 						</dict>
 					</dict>
 					<key>name</key>
-					<string>meta.method.ocaml</string>
+					<string>meta.method.ocamlembedded</string>
 					<key>patterns</key>
 					<array>
 						<dict>
@@ -620,17 +620,17 @@
 						<key>1</key>
 						<dict>
 							<key>name</key>
-							<string>keyword.other.language.ocaml</string>
+							<string>keyword.other.language.ocamlembedded</string>
 						</dict>
 						<key>2</key>
 						<dict>
 							<key>name</key>
-							<string>storage.type.ocaml</string>
+							<string>storage.type.ocamlembedded</string>
 						</dict>
 						<key>3</key>
 						<dict>
 							<key>name</key>
-							<string>keyword.operator.ocaml</string>
+							<string>keyword.operator.ocamlembedded</string>
 						</dict>
 					</dict>
 					<key>end</key>
@@ -640,21 +640,21 @@
 						<key>1</key>
 						<dict>
 							<key>name</key>
-							<string>storage.type.polymorphic-variant.ocaml</string>
+							<string>storage.type.polymorphic-variant.ocamlembedded</string>
 						</dict>
 						<key>2</key>
 						<dict>
 							<key>name</key>
-							<string>storage.type.ocaml</string>
+							<string>storage.type.ocamlembedded</string>
 						</dict>
 						<key>3</key>
 						<dict>
 							<key>name</key>
-							<string>storage.type.ocaml</string>
+							<string>storage.type.ocamlembedded</string>
 						</dict>
 					</dict>
 					<key>name</key>
-					<string>meta.object.type-constraint.ocaml</string>
+					<string>meta.object.type-constraint.ocamlembedded</string>
 				</dict>
 				<dict>
 					<key>include</key>
@@ -668,13 +668,13 @@
 				<key>1</key>
 				<dict>
 					<key>name</key>
-					<string>punctuation.separator.method-call.ocaml</string>
+					<string>punctuation.separator.method-call.ocamlembedded</string>
 				</dict>
 			</dict>
 			<key>match</key>
 			<string>(?&lt;=\w|\)|')(#)[a-z_][a-zA-Z0-9'_]*</string>
 			<key>name</key>
-			<string>meta.method-call.ocaml</string>
+			<string>meta.method-call.ocamlembedded</string>
 		</dict>
 		<dict>
 			<key>captures</key>
@@ -682,28 +682,28 @@
 				<key>1</key>
 				<dict>
 					<key>name</key>
-					<string>keyword.other.module-definition.ocaml</string>
+					<string>keyword.other.module-definition.ocamlembedded</string>
 				</dict>
 				<key>2</key>
 				<dict>
 					<key>name</key>
-					<string>entity.name.type.module.ocaml</string>
+					<string>entity.name.type.module.ocamlembedded</string>
 				</dict>
 				<key>3</key>
 				<dict>
 					<key>name</key>
-					<string>punctuation.separator.module-definition.ocaml</string>
+					<string>punctuation.separator.module-definition.ocamlembedded</string>
 				</dict>
 				<key>4</key>
 				<dict>
 					<key>name</key>
-					<string>entity.name.type.module-type.ocaml</string>
+					<string>entity.name.type.module-type.ocamlembedded</string>
 				</dict>
 			</dict>
 			<key>match</key>
 			<string>^[ \t]*(module)\s+([A-Z_][a-zA-Z0-9'_]*)(?:\s*(:)\s*([A-Z][a-zA-Z0-9'_]*)?)?</string>
 			<key>name</key>
-			<string>meta.module.ocaml</string>
+			<string>meta.module.ocamlembedded</string>
 		</dict>
 		<dict>
 			<key>captures</key>
@@ -711,18 +711,18 @@
 				<key>1</key>
 				<dict>
 					<key>name</key>
-					<string>keyword.other.module-type-definition.ocaml</string>
+					<string>keyword.other.module-type-definition.ocamlembedded</string>
 				</dict>
 				<key>2</key>
 				<dict>
 					<key>name</key>
-					<string>entity.name.type.module-type.ocaml</string>
+					<string>entity.name.type.module-type.ocamlembedded</string>
 				</dict>
 			</dict>
 			<key>match</key>
 			<string>^[ \t]*(module\s+type\s+)([A-Z][a-zA-Z0-9'_]*)</string>
 			<key>name</key>
-			<string>meta.module.type.ocaml</string>
+			<string>meta.module.type.ocamlembedded</string>
 		</dict>
 		<dict>
 			<key>begin</key>
@@ -732,7 +732,7 @@
 				<key>1</key>
 				<dict>
 					<key>name</key>
-					<string>keyword.other.module.signature.ocaml</string>
+					<string>keyword.other.module.signature.ocamlembedded</string>
 				</dict>
 			</dict>
 			<key>end</key>
@@ -742,21 +742,21 @@
 				<key>1</key>
 				<dict>
 					<key>name</key>
-					<string>keyword.other.module.signature.ocaml</string>
+					<string>keyword.other.module.signature.ocamlembedded</string>
 				</dict>
 				<key>2</key>
 				<dict>
 					<key>name</key>
-					<string>punctuation.terminator.expression.ocaml</string>
+					<string>punctuation.terminator.expression.ocamlembedded</string>
 				</dict>
 				<key>3</key>
 				<dict>
 					<key>name</key>
-					<string>keyword.operator.ocaml</string>
+					<string>keyword.operator.ocamlembedded</string>
 				</dict>
 			</dict>
 			<key>name</key>
-			<string>meta.module.signature.ocaml</string>
+			<string>meta.module.signature.ocamlembedded</string>
 			<key>patterns</key>
 			<array>
 				<dict>
@@ -777,7 +777,7 @@
 				<key>1</key>
 				<dict>
 					<key>name</key>
-					<string>keyword.other.module.structure.ocaml</string>
+					<string>keyword.other.module.structure.ocamlembedded</string>
 				</dict>
 			</dict>
 			<key>end</key>
@@ -787,11 +787,11 @@
 				<key>1</key>
 				<dict>
 					<key>name</key>
-					<string>keyword.other.module.structure.ocaml</string>
+					<string>keyword.other.module.structure.ocamlembedded</string>
 				</dict>
 			</dict>
 			<key>name</key>
-			<string>meta.module.structure.ocaml</string>
+			<string>meta.module.structure.ocamlembedded</string>
 			<key>patterns</key>
 			<array>
 				<dict>
@@ -812,18 +812,18 @@
 				<key>1</key>
 				<dict>
 					<key>name</key>
-					<string>keyword.other.ocaml</string>
+					<string>keyword.other.ocamlembedded</string>
 				</dict>
 				<key>2</key>
 				<dict>
 					<key>name</key>
-					<string>support.other.module.ocaml</string>
+					<string>support.other.module.ocamlembedded</string>
 				</dict>
 			</dict>
 			<key>end</key>
 			<string>(\s|$)</string>
 			<key>name</key>
-			<string>meta.module.open.ocaml</string>
+			<string>meta.module.open.ocamlembedded</string>
 			<key>patterns</key>
 			<array>
 				<dict>
@@ -832,13 +832,13 @@
 						<key>1</key>
 						<dict>
 							<key>name</key>
-							<string>punctuation.separator.module-reference.ocaml</string>
+							<string>punctuation.separator.module-reference.ocamlembedded</string>
 						</dict>
 					</dict>
 					<key>match</key>
 					<string>(\.)([A-Z][a-zA-Z0-9'_]*)</string>
 					<key>name</key>
-					<string>support.other.module.ocaml</string>
+					<string>support.other.module.ocamlembedded</string>
 				</dict>
 			</array>
 		</dict>
@@ -848,23 +848,23 @@
 				<key>1</key>
 				<dict>
 					<key>name</key>
-					<string>keyword.other.ocaml</string>
+					<string>keyword.other.ocamlembedded</string>
 				</dict>
 				<key>2</key>
 				<dict>
 					<key>name</key>
-					<string>entity.name.type.exception.ocaml</string>
+					<string>entity.name.type.exception.ocamlembedded</string>
 				</dict>
 				<key>3</key>
 				<dict>
 					<key>name</key>
-					<string>keyword.other.ocaml</string>
+					<string>keyword.other.ocamlembedded</string>
 				</dict>
 			</dict>
 			<key>match</key>
 			<string>\b(exception)\s+([A-Z][a-zA-Z0-9'_]*)(?:\s+(of))?\b</string>
 			<key>name</key>
-			<string>meta.exception.ocaml</string>
+			<string>meta.exception.ocamlembedded</string>
 		</dict>
 		<dict>
 			<key>begin</key>
@@ -876,16 +876,16 @@
 				<key>1</key>
 				<dict>
 					<key>name</key>
-					<string>punctuation.definition.camlp4-stream.ocaml</string>
+					<string>punctuation.definition.camlp4-stream.ocamlembedded</string>
 				</dict>
 			</dict>
 			<key>name</key>
-			<string>source.camlp4.embedded.ocaml</string>
+			<string>source.camlp4.embedded.ocamlembedded</string>
 			<key>patterns</key>
 			<array>
 				<dict>
 					<key>include</key>
-					<string>source.camlp4.ocaml</string>
+					<string>source.camlp4.ocamlembedded</string>
 				</dict>
 			</array>
 		</dict>
@@ -909,7 +909,7 @@
 				<key>1</key>
 				<dict>
 					<key>name</key>
-					<string>punctuation.section.type-constraint.ocaml</string>
+					<string>punctuation.section.type-constraint.ocamlembedded</string>
 				</dict>
 			</dict>
 			<key>end</key>
@@ -919,21 +919,21 @@
 				<key>1</key>
 				<dict>
 					<key>name</key>
-					<string>punctuation.separator.type-constraint.ocaml</string>
+					<string>punctuation.separator.type-constraint.ocamlembedded</string>
 				</dict>
 				<key>2</key>
 				<dict>
 					<key>name</key>
-					<string>storage.type.ocaml</string>
+					<string>storage.type.ocamlembedded</string>
 				</dict>
 				<key>3</key>
 				<dict>
 					<key>name</key>
-					<string>punctuation.section.type-constraint.ocaml</string>
+					<string>punctuation.section.type-constraint.ocamlembedded</string>
 				</dict>
 			</dict>
 			<key>name</key>
-			<string>meta.type-constraint.ocaml</string>
+			<string>meta.type-constraint.ocamlembedded</string>
 			<key>patterns</key>
 			<array>
 				<dict>
@@ -946,13 +946,13 @@
 			<key>match</key>
 			<string>^[ \t]*#[a-zA-Z]+</string>
 			<key>name</key>
-			<string>keyword.other.directive.ocaml</string>
+			<string>keyword.other.directive.ocamlembedded</string>
 		</dict>
 		<dict>
 			<key>match</key>
 			<string>^[ \t]*#[0-9]*</string>
 			<key>name</key>
-			<string>keyword.other.directive.line-number.ocaml</string>
+			<string>keyword.other.directive.line-number.ocamlembedded</string>
 		</dict>
 		<dict>
 			<key>include</key>
@@ -962,73 +962,73 @@
 			<key>match</key>
 			<string>\b(mutable|ref)\b</string>
 			<key>name</key>
-			<string>keyword.other.storage.modifier.ocaml</string>
+			<string>keyword.other.storage.modifier.ocamlembedded</string>
 		</dict>
 		<dict>
 			<key>match</key>
 			<string>`[A-Za-z][a-zA-Z0-9'_]*\b</string>
 			<key>name</key>
-			<string>constant.language.variant.polymorphic.ocaml</string>
+			<string>constant.language.variant.polymorphic.ocamlembedded</string>
 		</dict>
 		<dict>
 			<key>match</key>
 			<string>\b[A-Z][a-zA-Z0-9'_]*\b</string>
 			<key>name</key>
-			<string>constant.language.variant.ocaml</string>
+			<string>constant.language.variant.ocamlembedded</string>
 		</dict>
 		<dict>
 			<key>match</key>
 			<string>!=|:=|&gt;|&lt;</string>
 			<key>name</key>
-			<string>keyword.operator.symbol.ocaml</string>
+			<string>keyword.operator.symbol.ocamlembedded</string>
 		</dict>
 		<dict>
 			<key>match</key>
 			<string>[*+/-]\.</string>
 			<key>name</key>
-			<string>keyword.operator.infix.floating-point.ocaml</string>
+			<string>keyword.operator.infix.floating-point.ocamlembedded</string>
 		</dict>
 		<dict>
 			<key>match</key>
 			<string>~-\.</string>
 			<key>name</key>
-			<string>keyword.operator.prefix.floating-point.ocaml</string>
+			<string>keyword.operator.prefix.floating-point.ocamlembedded</string>
 		</dict>
 		<dict>
 			<key>match</key>
 			<string>::</string>
 			<key>name</key>
-			<string>punctuation.definition.list.constructor.ocaml</string>
+			<string>punctuation.definition.list.constructor.ocamlembedded</string>
 		</dict>
 		<dict>
 			<key>match</key>
 			<string>;;</string>
 			<key>name</key>
-			<string>punctuation.terminator.expression.ocaml</string>
+			<string>punctuation.terminator.expression.ocamlembedded</string>
 		</dict>
 		<dict>
 			<key>match</key>
 			<string>;</string>
 			<key>name</key>
-			<string>punctuation.separator.ocaml</string>
+			<string>punctuation.separator.ocamlembedded</string>
 		</dict>
 		<dict>
 			<key>match</key>
 			<string>-&gt;</string>
 			<key>name</key>
-			<string>punctuation.separator.function-return.ocaml</string>
+			<string>punctuation.separator.function-return.ocamlembedded</string>
 		</dict>
 		<dict>
 			<key>match</key>
 			<string>[=&lt;&gt;@^&amp;+\-*/$%|][|!$%&amp;*+./:&lt;=&gt;?@^~-]*</string>
 			<key>name</key>
-			<string>keyword.operator.infix.ocaml</string>
+			<string>keyword.operator.infix.ocamlembedded</string>
 		</dict>
 		<dict>
 			<key>match</key>
 			<string>\bnot\b|!|[!\?~][!$%&amp;*+./:&lt;=&gt;?@^~-]+</string>
 			<key>name</key>
-			<string>keyword.operator.prefix.ocaml</string>
+			<string>keyword.operator.prefix.ocamlembedded</string>
 		</dict>
 		<dict>
 			<key>captures</key>
@@ -1036,13 +1036,13 @@
 				<key>1</key>
 				<dict>
 					<key>name</key>
-					<string>punctuation.separator.argument-label.ocaml</string>
+					<string>punctuation.separator.argument-label.ocamlembedded</string>
 				</dict>
 			</dict>
 			<key>match</key>
 			<string>~[a-z][a-z0-9'_]*(:)?</string>
 			<key>name</key>
-			<string>entity.name.tag.label.ocaml</string>
+			<string>entity.name.tag.label.ocamlembedded</string>
 		</dict>
 		<dict>
 			<key>begin</key>
@@ -1052,7 +1052,7 @@
 				<key>1</key>
 				<dict>
 					<key>name</key>
-					<string>keyword.control.begin-end.ocaml</string>
+					<string>keyword.control.begin-end.ocamlembedded</string>
 				</dict>
 			</dict>
 			<key>end</key>
@@ -1062,11 +1062,11 @@
 				<key>1</key>
 				<dict>
 					<key>name</key>
-					<string>keyword.control.begin-end.ocaml</string>
+					<string>keyword.control.begin-end.ocamlembedded</string>
 				</dict>
 			</dict>
 			<key>name</key>
-			<string>meta.begin-end-group.ocaml</string>
+			<string>meta.begin-end-group.ocamlembedded</string>
 			<key>patterns</key>
 			<array>
 				<dict>
@@ -1083,7 +1083,7 @@
 				<key>1</key>
 				<dict>
 					<key>name</key>
-					<string>keyword.control.for-loop.ocaml</string>
+					<string>keyword.control.for-loop.ocamlembedded</string>
 				</dict>
 			</dict>
 			<key>end</key>
@@ -1093,18 +1093,18 @@
 				<key>1</key>
 				<dict>
 					<key>name</key>
-					<string>keyword.control.for-loop.ocaml</string>
+					<string>keyword.control.for-loop.ocamlembedded</string>
 				</dict>
 			</dict>
 			<key>name</key>
-			<string>meta.for-loop.ocaml</string>
+			<string>meta.for-loop.ocamlembedded</string>
 			<key>patterns</key>
 			<array>
 				<dict>
 					<key>match</key>
 					<string>\bdo\b</string>
 					<key>name</key>
-					<string>keyword.control.loop.ocaml</string>
+					<string>keyword.control.loop.ocamlembedded</string>
 				</dict>
 				<dict>
 					<key>include</key>
@@ -1120,7 +1120,7 @@
 				<key>1</key>
 				<dict>
 					<key>name</key>
-					<string>keyword.control.while-loop.ocaml</string>
+					<string>keyword.control.while-loop.ocamlembedded</string>
 				</dict>
 			</dict>
 			<key>end</key>
@@ -1130,18 +1130,18 @@
 				<key>1</key>
 				<dict>
 					<key>name</key>
-					<string>keyword.control.while-loop.ocaml</string>
+					<string>keyword.control.while-loop.ocamlembedded</string>
 				</dict>
 			</dict>
 			<key>name</key>
-			<string>meta.while-loop.ocaml</string>
+			<string>meta.while-loop.ocamlembedded</string>
 			<key>patterns</key>
 			<array>
 				<dict>
 					<key>match</key>
 					<string>\bdo\b</string>
 					<key>name</key>
-					<string>keyword.control.loop.ocaml</string>
+					<string>keyword.control.loop.ocamlembedded</string>
 				</dict>
 				<dict>
 					<key>include</key>
@@ -1155,7 +1155,7 @@
 			<key>end</key>
 			<string>\)</string>
 			<key>name</key>
-			<string>meta.paren-group.ocaml</string>
+			<string>meta.paren-group.ocamlembedded</string>
 			<key>patterns</key>
 			<array>
 				<dict>
@@ -1168,19 +1168,19 @@
 			<key>match</key>
 			<string>\b(and|land|lor|lsl|lsr|asr|lnot|lxor|mod|or)\b</string>
 			<key>name</key>
-			<string>keyword.operator.ocaml</string>
+			<string>keyword.operator.ocamlembedded</string>
 		</dict>
 		<dict>
 			<key>match</key>
 			<string>\b(downto|if|else|match|then|to|when|with|try)\b</string>
 			<key>name</key>
-			<string>keyword.control.ocaml</string>
+			<string>keyword.control.ocamlembedded</string>
 		</dict>
 		<dict>
 			<key>match</key>
 			<string>\b(as|assert|class|constraint|exception|external|functor|in|include|inherit|initializer|lazy|let|mod|module|mutable|new|object|open|private|rec|sig|struct|type|virtual)\b</string>
 			<key>name</key>
-			<string>keyword.other.ocaml</string>
+			<string>keyword.other.ocamlembedded</string>
 		</dict>
 		<dict>
 			<key>include</key>
@@ -1190,7 +1190,7 @@
 			<key>match</key>
 			<string>(’|‘|“|”)</string>
 			<key>name</key>
-			<string>invalid.illegal.unrecognized-character.ocaml</string>
+			<string>invalid.illegal.unrecognized-character.ocamlembedded</string>
 		</dict>
 	</array>
 	<key>repository</key>
@@ -1207,7 +1207,7 @@
 						<key>1</key>
 						<dict>
 							<key>name</key>
-							<string>punctuation.definition.array.begin.ocaml</string>
+							<string>punctuation.definition.array.begin.ocamlembedded</string>
 						</dict>
 					</dict>
 					<key>end</key>
@@ -1217,11 +1217,11 @@
 						<key>1</key>
 						<dict>
 							<key>name</key>
-							<string>punctuation.definition.array.end.ocaml</string>
+							<string>punctuation.definition.array.end.ocamlembedded</string>
 						</dict>
 					</dict>
 					<key>name</key>
-					<string>meta.array.ocaml</string>
+					<string>meta.array.ocamlembedded</string>
 					<key>patterns</key>
 					<array>
 						<dict>
@@ -1248,7 +1248,7 @@
 						<key>0</key>
 						<dict>
 							<key>name</key>
-							<string>punctuation.definition.comment.begin.ocaml</string>
+							<string>punctuation.definition.comment.begin.ocamlembedded</string>
 						</dict>
 					</dict>
 					<key>end</key>
@@ -1258,11 +1258,11 @@
 						<key>0</key>
 						<dict>
 							<key>name</key>
-							<string>punctuation.definition.comment.end.ocaml</string>
+							<string>punctuation.definition.comment.end.ocamlembedded</string>
 						</dict>
 					</dict>
 					<key>name</key>
-					<string>comment.block.ocaml</string>
+					<string>comment.block.ocamlembedded</string>
 					<key>patterns</key>
 					<array>
 						<dict>
@@ -1287,14 +1287,14 @@
 					<key>end</key>
 					<string>"</string>
 					<key>name</key>
-					<string>comment.block.string.quoted.double.ocaml</string>
+					<string>comment.block.string.quoted.double.ocamlembedded</string>
 					<key>patterns</key>
 					<array>
 						<dict>
 							<key>match</key>
 							<string>\\(x[a-fA-F0-9][a-fA-F0-9]|[0-2]\d\d|[bnrt'"\\])</string>
 							<key>name</key>
-							<string>comment.block.string.constant.character.escape.ocaml</string>
+							<string>comment.block.string.constant.character.escape.ocamlembedded</string>
 						</dict>
 					</array>
 				</dict>
@@ -1310,65 +1310,65 @@
 						<key>1</key>
 						<dict>
 							<key>name</key>
-							<string>meta.empty-typing-pair.ocaml</string>
+							<string>meta.empty-typing-pair.ocamlembedded</string>
 						</dict>
 						<key>2</key>
 						<dict>
 							<key>name</key>
-							<string>meta.empty-typing-pair.parens.ocaml</string>
+							<string>meta.empty-typing-pair.parens.ocamlembedded</string>
 						</dict>
 						<key>3</key>
 						<dict>
 							<key>name</key>
-							<string>meta.empty-typing-pair.ocaml</string>
+							<string>meta.empty-typing-pair.ocamlembedded</string>
 						</dict>
 					</dict>
 					<key>match</key>
 					<string>(?:\[\s*(\])|\((\))|\(\s*(\)))</string>
 					<key>name</key>
-					<string>constant.language.pseudo-variable.ocaml</string>
+					<string>constant.language.pseudo-variable.ocamlembedded</string>
 				</dict>
 				<dict>
 					<key>match</key>
 					<string>\b(true|false)\b</string>
 					<key>name</key>
-					<string>constant.language.boolean.ocaml</string>
+					<string>constant.language.boolean.ocamlembedded</string>
 				</dict>
 				<dict>
 					<key>match</key>
 					<string>\b-?[0-9][0-9_]*((\.([0-9][0-9_]*([eE][+-]??[0-9][0-9_]*)?)?)|([eE][+-]??[0-9][0-9_]*))</string>
 					<key>name</key>
-					<string>constant.numeric.floating-point.ocaml</string>
+					<string>constant.numeric.floating-point.ocamlembedded</string>
 				</dict>
 				<dict>
 					<key>match</key>
 					<string>\b(-?((0(x|X)[0-9a-fA-F][0-9a-fA-F_]*)|(0(o|O)[0-7][0-7_]*)|(0(b|B)[01][01_]*)|([0-9][0-9_]*)))n</string>
 					<key>name</key>
-					<string>constant.numeric.integer.nativeint.ocaml</string>
+					<string>constant.numeric.integer.nativeint.ocamlembedded</string>
 				</dict>
 				<dict>
 					<key>match</key>
 					<string>\b(-?((0(x|X)[0-9a-fA-F][0-9a-fA-F_]*)|(0(o|O)[0-7][0-7_]*)|(0(b|B)[01][01_]*)|([0-9][0-9_]*)))L</string>
 					<key>name</key>
-					<string>constant.numeric.integer.int64.ocaml</string>
+					<string>constant.numeric.integer.int64.ocamlembedded</string>
 				</dict>
 				<dict>
 					<key>match</key>
 					<string>\b(-?((0(x|X)[0-9a-fA-F][0-9a-fA-F_]*)|(0(o|O)[0-7][0-7_]*)|(0(b|B)[01][01_]*)|([0-9][0-9_]*)))l</string>
 					<key>name</key>
-					<string>constant.numeric.integer.int32.ocaml</string>
+					<string>constant.numeric.integer.int32.ocamlembedded</string>
 				</dict>
 				<dict>
 					<key>match</key>
 					<string>\b(-?((0(x|X)[0-9a-fA-F][0-9a-fA-F_]*)|(0(o|O)[0-7][0-7_]*)|(0(b|B)[01][01_]*)|([0-9][0-9_]*)))</string>
 					<key>name</key>
-					<string>constant.numeric.integer.ocaml</string>
+					<string>constant.numeric.integer.ocamlembedded</string>
 				</dict>
 				<dict>
 					<key>match</key>
 					<string>'(.|\\(x[a-fA-F0-9][a-fA-F0-9]|[0-2]\d\d|[bnrt'"\\]))'</string>
 					<key>name</key>
-					<string>constant.character.ocaml</string>
+					<string>constant.character.ocamlembedded</string>
 				</dict>
 			</array>
 		</dict>
@@ -1384,7 +1384,7 @@
 					<key>match</key>
 					<string>\b[a-zA-Z0-9'_]+\b</string>
 					<key>name</key>
-					<string>storage.type.ocaml</string>
+					<string>storage.type.ocamlembedded</string>
 				</dict>
 			</array>
 		</dict>
@@ -1400,7 +1400,7 @@
 						<key>1</key>
 						<dict>
 							<key>name</key>
-							<string>punctuation.definition.list.begin.ocaml</string>
+							<string>punctuation.definition.list.begin.ocamlembedded</string>
 						</dict>
 					</dict>
 					<key>end</key>
@@ -1410,11 +1410,11 @@
 						<key>1</key>
 						<dict>
 							<key>name</key>
-							<string>punctuation.definition.list.end.ocaml</string>
+							<string>punctuation.definition.list.end.ocamlembedded</string>
 						</dict>
 					</dict>
 					<key>name</key>
-					<string>meta.list.ocaml</string>
+					<string>meta.list.ocamlembedded</string>
 					<key>patterns</key>
 					<array>
 						<dict>
@@ -1437,13 +1437,13 @@
 					<key>match</key>
 					<string>\b_\b</string>
 					<key>name</key>
-					<string>constant.language.universal-match.ocaml</string>
+					<string>constant.language.universal-match.ocamlembedded</string>
 				</dict>
 				<dict>
 					<key>match</key>
 					<string>\|(?=\s*\S)</string>
 					<key>name</key>
-					<string>punctuation.separator.match-pattern.ocaml</string>
+					<string>punctuation.separator.match-pattern.ocamlembedded</string>
 				</dict>
 				<dict>
 					<key>begin</key>
@@ -1453,7 +1453,7 @@
 						<key>1</key>
 						<dict>
 							<key>name</key>
-							<string>punctuation.definition.match-option.ocaml</string>
+							<string>punctuation.definition.match-option.ocamlembedded</string>
 						</dict>
 					</dict>
 					<key>end</key>
@@ -1463,18 +1463,18 @@
 						<key>1</key>
 						<dict>
 							<key>name</key>
-							<string>punctuation.definition.match-option.ocaml</string>
+							<string>punctuation.definition.match-option.ocamlembedded</string>
 						</dict>
 					</dict>
 					<key>name</key>
-					<string>meta.match-option.ocaml</string>
+					<string>meta.match-option.ocamlembedded</string>
 					<key>patterns</key>
 					<array>
 						<dict>
 							<key>match</key>
 							<string>\|</string>
 							<key>name</key>
-							<string>punctuation.separator.match-option.ocaml</string>
+							<string>punctuation.separator.match-option.ocamlembedded</string>
 						</dict>
 						<dict>
 							<key>include</key>
@@ -1512,23 +1512,23 @@
 						<key>1</key>
 						<dict>
 							<key>name</key>
-							<string>keyword.other.ocaml</string>
+							<string>keyword.other.ocamlembedded</string>
 						</dict>
 						<key>2</key>
 						<dict>
 							<key>name</key>
-							<string>entity.name.type.value-signature.ocaml</string>
+							<string>entity.name.type.value-signature.ocamlembedded</string>
 						</dict>
 						<key>3</key>
 						<dict>
 							<key>name</key>
-							<string>punctuation.separator.type-constraint.ocaml</string>
+							<string>punctuation.separator.type-constraint.ocamlembedded</string>
 						</dict>
 					</dict>
 					<key>end</key>
 					<string>(?=\b(type|val|external|class|module|end)\b)|^\s*$</string>
 					<key>name</key>
-					<string>meta.module.signature.val.ocaml</string>
+					<string>meta.module.signature.val.ocamlembedded</string>
 					<key>patterns</key>
 					<array>
 						<dict>
@@ -1537,21 +1537,21 @@
 								<key>1</key>
 								<dict>
 									<key>name</key>
-									<string>keyword.other.question-mark.optional-parameter.ocaml</string>
+									<string>keyword.other.question-mark.optional-parameter.ocamlembedded</string>
 								</dict>
 								<key>2</key>
 								<dict>
 									<key>name</key>
-									<string>variable.parameter.label.optional.ocaml</string>
+									<string>variable.parameter.label.optional.ocamlembedded</string>
 								</dict>
 								<key>3</key>
 								<dict>
 									<key>name</key>
-									<string>punctuation.separator.optional-parameter.ocaml</string>
+									<string>punctuation.separator.optional-parameter.ocamlembedded</string>
 								</dict>
 							</dict>
 							<key>comment</key>
-							<string>variable.parameter.ameter.optional.ocaml</string>
+							<string>variable.parameter.ameter.optional.ocamlembedded</string>
 							<key>match</key>
 							<string>(\?)([a-z][a-zA-Z0-9_]*)\s*(:)</string>
 						</dict>
@@ -1563,21 +1563,21 @@
 								<key>1</key>
 								<dict>
 									<key>name</key>
-									<string>variable.parameter.label.ocaml</string>
+									<string>variable.parameter.label.ocamlembedded</string>
 								</dict>
 								<key>2</key>
 								<dict>
 									<key>name</key>
-									<string>punctuation.separator.label.ocaml</string>
+									<string>punctuation.separator.label.ocamlembedded</string>
 								</dict>
 								<key>3</key>
 								<dict>
 									<key>name</key>
-									<string>storage.type.ocaml</string>
+									<string>storage.type.ocamlembedded</string>
 								</dict>
 							</dict>
 							<key>comment</key>
-							<string>variable.parameter.labeled.ocaml</string>
+							<string>variable.parameter.labeled.ocamlembedded</string>
 							<key>end</key>
 							<string>\s</string>
 							<key>patterns</key>
@@ -1602,23 +1602,23 @@
 						<key>1</key>
 						<dict>
 							<key>name</key>
-							<string>keyword.other.ocaml</string>
+							<string>keyword.other.ocamlembedded</string>
 						</dict>
 						<key>2</key>
 						<dict>
 							<key>name</key>
-							<string>entity.name.type.external-signature.ocaml</string>
+							<string>entity.name.type.external-signature.ocamlembedded</string>
 						</dict>
 						<key>3</key>
 						<dict>
 							<key>name</key>
-							<string>punctuation.separator.type-constraint.ocaml</string>
+							<string>punctuation.separator.type-constraint.ocamlembedded</string>
 						</dict>
 					</dict>
 					<key>end</key>
 					<string>(?=\b(type|val|external|class|module|let|end)\b)|^\s*$</string>
 					<key>name</key>
-					<string>meta.module.signature.external.ocaml</string>
+					<string>meta.module.signature.external.ocamlembedded</string>
 					<key>patterns</key>
 					<array>
 						<dict>
@@ -1627,21 +1627,21 @@
 								<key>1</key>
 								<dict>
 									<key>name</key>
-									<string>keyword.other.question-mark.optional-parameter.ocaml</string>
+									<string>keyword.other.question-mark.optional-parameter.ocamlembedded</string>
 								</dict>
 								<key>2</key>
 								<dict>
 									<key>name</key>
-									<string>variable.parameter.label.optional.ocaml</string>
+									<string>variable.parameter.label.optional.ocamlembedded</string>
 								</dict>
 								<key>3</key>
 								<dict>
 									<key>name</key>
-									<string>punctuation.separator.optional-parameter.ocaml</string>
+									<string>punctuation.separator.optional-parameter.ocamlembedded</string>
 								</dict>
 							</dict>
 							<key>comment</key>
-							<string>variable.parameter.optional.ocaml</string>
+							<string>variable.parameter.optional.ocamlembedded</string>
 							<key>match</key>
 							<string>(\?)([a-z][a-zA-Z0-9_]*)\s*(:)</string>
 						</dict>
@@ -1653,21 +1653,21 @@
 								<key>1</key>
 								<dict>
 									<key>name</key>
-									<string>keyword.other.tilde.labeled-parameter.ocaml</string>
+									<string>keyword.other.tilde.labeled-parameter.ocamlembedded</string>
 								</dict>
 								<key>2</key>
 								<dict>
 									<key>name</key>
-									<string>variable.parameter.label.ocaml</string>
+									<string>variable.parameter.label.ocamlembedded</string>
 								</dict>
 								<key>3</key>
 								<dict>
 									<key>name</key>
-									<string>punctuation.separator.label.ocaml</string>
+									<string>punctuation.separator.label.ocamlembedded</string>
 								</dict>
 							</dict>
 							<key>comment</key>
-							<string>variable.parameter.labeled.ocaml</string>
+							<string>variable.parameter.labeled.ocamlembedded</string>
 							<key>end</key>
 							<string>\s</string>
 							<key>patterns</key>
@@ -1700,18 +1700,18 @@
 						<key>1</key>
 						<dict>
 							<key>name</key>
-							<string>support.other.module.ocaml</string>
+							<string>support.other.module.ocamlembedded</string>
 						</dict>
 						<key>2</key>
 						<dict>
 							<key>name</key>
-							<string>punctuation.separator.module-reference.ocaml</string>
+							<string>punctuation.separator.module-reference.ocamlembedded</string>
 						</dict>
 					</dict>
 					<key>match</key>
 					<string>\b([A-Z][a-zA-Z0-9'_]*)(\.)</string>
 					<key>name</key>
-					<string>meta.module-reference.ocaml</string>
+					<string>meta.module-reference.ocamlembedded</string>
 				</dict>
 			</array>
 		</dict>
@@ -1723,13 +1723,13 @@
 					<key>match</key>
 					<string>\b(int|char|float|string|list|array|bool|unit|exn|option|int32|int64|nativeint|format4|lazy_t)\b</string>
 					<key>name</key>
-					<string>storage.type.ocaml</string>
+					<string>storage.type.ocamlembedded</string>
 				</dict>
 				<dict>
 					<key>match</key>
 					<string>#[a-z_][a-zA-Z0-9_]*</string>
 					<key>name</key>
-					<string>storage.type.variant.polymorphic.ocaml</string>
+					<string>storage.type.variant.polymorphic.ocamlembedded</string>
 				</dict>
 			</array>
 		</dict>
@@ -1745,7 +1745,7 @@
 						<key>1</key>
 						<dict>
 							<key>name</key>
-							<string>punctuation.definition.string.begin.ocaml</string>
+							<string>punctuation.definition.string.begin.ocamlembedded</string>
 						</dict>
 					</dict>
 					<key>end</key>
@@ -1755,30 +1755,30 @@
 						<key>1</key>
 						<dict>
 							<key>name</key>
-							<string>punctuation.definition.string.end.ocaml</string>
+							<string>punctuation.definition.string.end.ocamlembedded</string>
 						</dict>
 					</dict>
 					<key>name</key>
-					<string>string.quoted.double.ocaml</string>
+					<string>string.quoted.double.ocamlembedded</string>
 					<key>patterns</key>
 					<array>
 						<dict>
 							<key>match</key>
 							<string>\\$[ \t]*</string>
 							<key>name</key>
-							<string>punctuation.separator.string.ignore-eol.ocaml</string>
+							<string>punctuation.separator.string.ignore-eol.ocamlembedded</string>
 						</dict>
 						<dict>
 							<key>match</key>
 							<string>\\(x[a-fA-F0-9][a-fA-F0-9]|[0-2]\d\d|[bnrt'"\\])</string>
 							<key>name</key>
-							<string>constant.character.string.escape.ocaml</string>
+							<string>constant.character.string.escape.ocamlembedded</string>
 						</dict>
 						<dict>
 							<key>match</key>
 							<string>\\[\|\(\)1-9$^.*+?\[\]]</string>
 							<key>name</key>
-							<string>constant.character.regexp.escape.ocaml</string>
+							<string>constant.character.regexp.escape.ocamlembedded</string>
 						</dict>
 						<dict>
 							<key>match</key>
@@ -1794,7 +1794,7 @@
 					<key>end</key>
 					<string>\|\1}</string>
 					<key>name</key>
-					<string>string.quoted.brace.ocaml</string>
+					<string>string.quoted.brace.ocamlembedded</string>
 				</dict>
 			</array>
 		</dict>
@@ -1806,7 +1806,7 @@
 					<key>match</key>
 					<string>\|</string>
 					<key>name</key>
-					<string>punctuation.separator.variant-definition.ocaml</string>
+					<string>punctuation.separator.variant-definition.ocamlembedded</string>
 				</dict>
 				<dict>
 					<key>include</key>
@@ -1818,14 +1818,14 @@
 					<key>end</key>
 					<string>\)</string>
 					<key>name</key>
-					<string>meta.paren-group.ocaml</string>
+					<string>meta.paren-group.ocamlembedded</string>
 					<key>patterns</key>
 					<array>
 						<dict>
 							<key>match</key>
 							<string>\bmodule\b</string>
 							<key>name</key>
-							<string>keyword.other.ocaml</string>
+							<string>keyword.other.ocamlembedded</string>
 						</dict>
 						<dict>
 							<key>include</key>
@@ -1837,7 +1837,7 @@
 					<key>match</key>
 					<string>\bof\b</string>
 					<key>name</key>
-					<string>keyword.other.ocaml</string>
+					<string>keyword.other.ocamlembedded</string>
 				</dict>
 				<dict>
 					<key>include</key>
@@ -1847,7 +1847,7 @@
 					<key>match</key>
 					<string>(?&lt;=\s|\()['a-z_][a-zA-Z0-9_]*\b</string>
 					<key>name</key>
-					<string>storage.type.ocaml</string>
+					<string>storage.type.ocamlembedded</string>
 				</dict>
 				<dict>
 					<key>captures</key>
@@ -1855,18 +1855,18 @@
 						<key>1</key>
 						<dict>
 							<key>name</key>
-							<string>support.other.module.ocaml</string>
+							<string>support.other.module.ocamlembedded</string>
 						</dict>
 						<key>2</key>
 						<dict>
 							<key>name</key>
-							<string>storage.type.module.ocaml</string>
+							<string>storage.type.module.ocamlembedded</string>
 						</dict>
 					</dict>
 					<key>match</key>
 					<string>\b((?:[A-Z][a-zA-Z0-9'_]*)(?:\.[A-Z][a-zA-Z0-9'_]+)*)(\.[a-zA-Z0-9'_]+)</string>
 					<key>name</key>
-					<string>meta.module.type.ocaml</string>
+					<string>meta.module.type.ocamlembedded</string>
 				</dict>
 				<dict>
 					<key>begin</key>
@@ -1876,7 +1876,7 @@
 						<key>1</key>
 						<dict>
 							<key>name</key>
-							<string>punctuation.definition.polymorphic-variant.ocaml</string>
+							<string>punctuation.definition.polymorphic-variant.ocamlembedded</string>
 						</dict>
 					</dict>
 					<key>end</key>
@@ -1886,11 +1886,11 @@
 						<key>1</key>
 						<dict>
 							<key>name</key>
-							<string>punctuation.definition.polymorphic-variant.ocaml</string>
+							<string>punctuation.definition.polymorphic-variant.ocamlembedded</string>
 						</dict>
 					</dict>
 					<key>name</key>
-					<string>meta.polymorphic-variant.definition.ocaml</string>
+					<string>meta.polymorphic-variant.definition.ocamlembedded</string>
 					<key>patterns</key>
 					<array>
 						<dict>
@@ -1907,7 +1907,7 @@
 					<key>match</key>
 					<string>\|</string>
 					<key>name</key>
-					<string>punctuation.separator.algebraic-type.ocaml</string>
+					<string>punctuation.separator.algebraic-type.ocamlembedded</string>
 				</dict>
 			</array>
 		</dict>
@@ -1931,21 +1931,21 @@
 						<key>1</key>
 						<dict>
 							<key>name</key>
-							<string>keyword.other.tilde.labeled-parameter.ocaml</string>
+							<string>keyword.other.tilde.labeled-parameter.ocamlembedded</string>
 						</dict>
 						<key>2</key>
 						<dict>
 							<key>name</key>
-							<string>variable.parameter.label.ocaml</string>
+							<string>variable.parameter.label.ocamlembedded</string>
 						</dict>
 						<key>3</key>
 						<dict>
 							<key>name</key>
-							<string>punctuation.separator.label.ocaml</string>
+							<string>punctuation.separator.label.ocamlembedded</string>
 						</dict>
 					</dict>
 					<key>comment</key>
-					<string>variable.parameter.labeled.ocaml</string>
+					<string>variable.parameter.labeled.ocamlembedded</string>
 					<key>end</key>
 					<string>(?=(-&gt;|\s))</string>
 					<key>patterns</key>
@@ -1962,16 +1962,16 @@
 						<key>1</key>
 						<dict>
 							<key>name</key>
-							<string>keyword.other.question-mark.optional-parameter.ocaml</string>
+							<string>keyword.other.question-mark.optional-parameter.ocamlembedded</string>
 						</dict>
 						<key>2</key>
 						<dict>
 							<key>name</key>
-							<string>variable.parameter.label.optional.ocaml</string>
+							<string>variable.parameter.label.optional.ocamlembedded</string>
 						</dict>
 					</dict>
 					<key>comment</key>
-					<string>variable.parameter.optional.ocaml</string>
+					<string>variable.parameter.optional.ocamlembedded</string>
 					<key>match</key>
 					<string>(\?)([a-z][a-zA-Z0-9_]*)</string>
 				</dict>
@@ -1983,26 +1983,26 @@
 						<key>1</key>
 						<dict>
 							<key>name</key>
-							<string>keyword.other.question-mark.optional-parameter.ocaml</string>
+							<string>keyword.other.question-mark.optional-parameter.ocamlembedded</string>
 						</dict>
 						<key>2</key>
 						<dict>
 							<key>name</key>
-							<string>punctuation.definition.optional-parameter.ocaml</string>
+							<string>punctuation.definition.optional-parameter.ocamlembedded</string>
 						</dict>
 						<key>3</key>
 						<dict>
 							<key>name</key>
-							<string>variable.parameter.label.optional.ocaml</string>
+							<string>variable.parameter.label.optional.ocamlembedded</string>
 						</dict>
 						<key>4</key>
 						<dict>
 							<key>name</key>
-							<string>punctuation.separator.optional-parameter-assignment.ocaml</string>
+							<string>punctuation.separator.optional-parameter-assignment.ocamlembedded</string>
 						</dict>
 					</dict>
 					<key>comment</key>
-					<string>variable.parameter.optional.ocaml</string>
+					<string>variable.parameter.optional.ocamlembedded</string>
 					<key>end</key>
 					<string>(\))</string>
 					<key>endCaptures</key>
@@ -2010,7 +2010,7 @@
 						<key>1</key>
 						<dict>
 							<key>name</key>
-							<string>punctuation.definition.optional-parameter.ocaml</string>
+							<string>punctuation.definition.optional-parameter.ocamlembedded</string>
 						</dict>
 					</dict>
 					<key>patterns</key>
@@ -2029,7 +2029,7 @@
 						<key>1</key>
 						<dict>
 							<key>name</key>
-							<string>punctuation.section.type-constraint.ocaml</string>
+							<string>punctuation.section.type-constraint.ocamlembedded</string>
 						</dict>
 					</dict>
 					<key>end</key>
@@ -2039,11 +2039,11 @@
 						<key>1</key>
 						<dict>
 							<key>name</key>
-							<string>punctuation.section.type-constraint.ocaml</string>
+							<string>punctuation.section.type-constraint.ocamlembedded</string>
 						</dict>
 					</dict>
 					<key>name</key>
-					<string>meta.parameter.type-constrained.ocaml</string>
+					<string>meta.parameter.type-constrained.ocamlembedded</string>
 					<key>patterns</key>
 					<array>
 						<dict>
@@ -2054,13 +2054,13 @@
 								<key>1</key>
 								<dict>
 									<key>name</key>
-									<string>punctuation.separator.type-constraint.ocaml</string>
+									<string>punctuation.separator.type-constraint.ocamlembedded</string>
 								</dict>
 							</dict>
 							<key>end</key>
 							<string>(?=\))</string>
 							<key>name</key>
-							<string>storage.type.ocaml</string>
+							<string>storage.type.ocamlembedded</string>
 							<key>patterns</key>
 							<array>
 								<dict>
@@ -2089,7 +2089,7 @@
 					<key>end</key>
 					<string>\)</string>
 					<key>name</key>
-					<string>meta.paren-group.ocaml</string>
+					<string>meta.paren-group.ocamlembedded</string>
 					<key>patterns</key>
 					<array>
 						<dict>
@@ -2106,11 +2106,11 @@
 						<key>1</key>
 						<dict>
 							<key>name</key>
-							<string>punctuation.definition.tuple.ocaml</string>
+							<string>punctuation.definition.tuple.ocamlembedded</string>
 						</dict>
 					</dict>
 					<key>comment</key>
-					<string>variable.parameter.tuple.ocaml</string>
+					<string>variable.parameter.tuple.ocamlembedded</string>
 					<key>end</key>
 					<string>(\))</string>
 					<key>endCaptures</key>
@@ -2118,7 +2118,7 @@
 						<key>1</key>
 						<dict>
 							<key>name</key>
-							<string>punctuation.definition.tuple.ocaml</string>
+							<string>punctuation.definition.tuple.ocamlembedded</string>
 						</dict>
 					</dict>
 					<key>patterns</key>
@@ -2135,7 +2135,7 @@
 							<key>match</key>
 							<string>,</string>
 							<key>name</key>
-							<string>punctuation.separator.tuple.ocaml</string>
+							<string>punctuation.separator.tuple.ocamlembedded</string>
 						</dict>
 					</array>
 				</dict>
@@ -2147,11 +2147,11 @@
 						<key>1</key>
 						<dict>
 							<key>name</key>
-							<string>punctuation.definition.record.ocaml</string>
+							<string>punctuation.definition.record.ocamlembedded</string>
 						</dict>
 					</dict>
 					<key>comment</key>
-					<string>variable.parameter.record.ocaml</string>
+					<string>variable.parameter.record.ocamlembedded</string>
 					<key>end</key>
 					<string>(\})</string>
 					<key>endCaptures</key>
@@ -2159,7 +2159,7 @@
 						<key>1</key>
 						<dict>
 							<key>name</key>
-							<string>punctuation.definition.record.ocaml</string>
+							<string>punctuation.definition.record.ocamlembedded</string>
 						</dict>
 					</dict>
 					<key>patterns</key>
@@ -2176,12 +2176,12 @@
 								<key>1</key>
 								<dict>
 									<key>name</key>
-									<string>variable.record.label.ocaml</string>
+									<string>variable.record.label.ocamlembedded</string>
 								</dict>
 								<key>2</key>
 								<dict>
 									<key>name</key>
-									<string>punctuation.separator.record.field-assignment.ocaml</string>
+									<string>punctuation.separator.record.field-assignment.ocamlembedded</string>
 								</dict>
 							</dict>
 							<key>end</key>
@@ -2191,11 +2191,11 @@
 								<key>1</key>
 								<dict>
 									<key>name</key>
-									<string>punctuation.separator.record.ocaml</string>
+									<string>punctuation.separator.record.ocamlembedded</string>
 								</dict>
 							</dict>
 							<key>name</key>
-							<string>meta.recordfield.match.ocaml</string>
+							<string>meta.recordfield.match.ocamlembedded</string>
 							<key>patterns</key>
 							<array>
 								<dict>
@@ -2214,19 +2214,19 @@
 					<key>match</key>
 					<string>\bas\b</string>
 					<key>name</key>
-					<string>keyword.other.ocaml</string>
+					<string>keyword.other.ocamlembedded</string>
 				</dict>
 				<dict>
 					<key>match</key>
 					<string>\b[a-z_][a-zA-Z0-9'_]*</string>
 					<key>name</key>
-					<string>variable.parameter.ocaml</string>
+					<string>variable.parameter.ocamlembedded</string>
 				</dict>
 			</array>
 		</dict>
 	</dict>
 	<key>scopeName</key>
-	<string>source.ocaml</string>
+	<string>source.ocamlembedded</string>
 	<key>uuid</key>
 	<string>F816FA69-6EE8-11D9-BF2D-000D93589AF6</string>
 </dict>

@@ -43,7 +43,7 @@
 			<array>
 				<dict>
 					<key>include</key>
-					<string>source.ocaml</string>
+					<string>source.ocamlembedded</string>
 				</dict>
 			</array>
 		</dict>
@@ -211,7 +211,7 @@
 					<array>
 						<dict>
 							<key>include</key>
-							<string>source.ocaml</string>
+							<string>source.ocamlembedded</string>
 						</dict>
 					</array>
 				</dict>
