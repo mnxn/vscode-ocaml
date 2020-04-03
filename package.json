@@ -1,6 +1,6 @@
 {
   "name": "ocaml-mll-mly",
-  "displayName": "OCaml mll and mly",
+  "displayName": "OCaml mll and mly (deprecated)",
   "description": "OCaml .mll and .mly highlighting",
   "version": "0.0.4",
   "publisher": "mnxn",
